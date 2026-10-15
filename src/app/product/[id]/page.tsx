@@ -21,18 +21,18 @@ export default function ProductDetail() {
         <div className="max-w-7xl mx-auto px-4">
           <Breadcrumb items={breadcrumbItems} />
 
-          {/* Gallery + Info */}
+          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
             <ProductGallery />
             <ProductInfo />
           </div>
 
-          {/* Tabs */}
+       
           <div className="mb-10">
             <ProductTabs />
           </div>
 
-          {/* You Might Also Like */}
+          
           <YouMightLike />
         </div>
       </main>
